@@ -1,0 +1,29 @@
+{
+    "token": "",
+    "prefix": ".",
+    "guild": "",
+    "cmdTimeout": 10000,
+    "admins": {
+        "users": [],
+        "roles": []
+    },
+    "mysql": {
+        "!info": "ALL ARE REQUIRED AND MUST BE SETUP FIRST (except tableName, it will create one if it doesn't exist)",
+        "host": "",
+        "username": "",
+        "password": "",
+        "database": "",
+        "tableName": ""
+    },
+    "xp": {
+        "levelUp": 25,
+        "timeout": 1000,
+        "rewards": {
+            "2": [ "giveRole-000000000000000000"]
+        }
+    },
+    "colors": {
+        "ok": "0x9b59b6",
+        "error": "0xe74c3c"
+    }
+}
